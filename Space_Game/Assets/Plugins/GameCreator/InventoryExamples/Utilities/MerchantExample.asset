@@ -19,15 +19,13 @@ MonoBehaviour:
   warehouse:
     wares:
     - item:
-        item: {fileID: 114273004538180096, guid: 7db43c44761c8486cb3f2e9968376eb5, type: 2}
+        item: {fileID: 114273004538180096, guid: 7db43c44761c8486cb3f2e9968376eb5,
+          type: 2}
       limitAmount: 0
       maxAmount: 2
     - item:
-        item: {fileID: 114876379292609582, guid: 7db43c44761c8486cb3f2e9968376eb5, type: 2}
-      limitAmount: 1
-      maxAmount: 1
-    - item:
-        item: {fileID: -2499276668320112807, guid: 7db43c44761c8486cb3f2e9968376eb5, type: 2}
+        item: {fileID: 114876379292609582, guid: 7db43c44761c8486cb3f2e9968376eb5,
+          type: 2}
       limitAmount: 1
       maxAmount: 1
   purchasePercent:
@@ -41,11 +39,6 @@ MonoBehaviour:
       name: 
       targetType: 2
       targetObject: {fileID: 0}
-    list:
-      targetType: 3
-      targetObject: {fileID: 0}
-      select: 1
-      index: 0
   sellPercent:
     optionIndex: 0
     value: 0.8
@@ -57,8 +50,3 @@ MonoBehaviour:
       name: 
       targetType: 2
       targetObject: {fileID: 0}
-    list:
-      targetType: 3
-      targetObject: {fileID: 0}
-      select: 1
-      index: 0
