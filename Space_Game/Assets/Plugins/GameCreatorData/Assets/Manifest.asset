@@ -14,26 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   manifests:
   - module:
-      moduleID: com.gamecreator.examples.core
-      version:
-        major: 1
-        minor: 1
-        patch: 3
-      displayName: Game Creator Examples
-      description: Example scenes that show how to use Game Creator tools.
-      category: Examples
-      dependencies: []
-      tags:
-      - examples
-      - game creator
-      authorName: Marti-Joan Nogue Coll
-      authorMail: marti@catsoft-studios.com
-      authorSite: https://gamecreator.io
-      includesData: 0
-      codePaths:
-      - Assets/Plugins/GameCreator/Examples/
-      dataPaths: []
-  - module:
       moduleID: com.gamecreator.examples.behavior
       version:
         major: 1
@@ -59,6 +39,26 @@ MonoBehaviour:
       - Assets/Plugins/GameCreator/BehaviorExamples/
       dataPaths:
       - Assets/Plugins/GameCreatorData/Behavior/
+  - module:
+      moduleID: com.gamecreator.examples.core
+      version:
+        major: 1
+        minor: 1
+        patch: 3
+      displayName: Game Creator Examples
+      description: Example scenes that show how to use Game Creator tools.
+      category: Examples
+      dependencies: []
+      tags:
+      - examples
+      - game creator
+      authorName: Marti-Joan Nogue Coll
+      authorMail: marti@catsoft-studios.com
+      authorSite: https://gamecreator.io
+      includesData: 0
+      codePaths:
+      - Assets/Plugins/GameCreator/Examples/
+      dataPaths: []
   - module:
       moduleID: com.gamecreator.examples.dialogue
       version:

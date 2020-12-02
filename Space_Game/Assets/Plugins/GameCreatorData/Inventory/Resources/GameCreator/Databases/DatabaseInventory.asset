@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8123768601438543280
+--- !u!114 &-6732398654033155302
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10,70 +10,72 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d6c3b42562c09470ea31efe19c9d3dd9, type: 3}
-  m_Name: item.938933842
+  m_Name: item.1378503747
   m_EditorClassIdentifier: 
-  uuid: 938933842
+  uuid: 1378503747
   itemName:
-    content: Iron
-    postProcess: 0
-    translationID: -1586569862
-  itemDescription:
-    content: General purpuse iron
-    postProcess: 0
-    translationID: 20842404
-  itemColor: {r: 0.4581447, g: 0.4198113, b: 1, a: 1}
-  sprite: {fileID: 21300000, guid: b6a3222db69897a4db4ed65af900e525, type: 3}
-  prefab: {fileID: 0}
-  canBeSold: 1
-  price: 1
-  maxStack: 99
-  weight: 0
-  itemTypes: 0
-  onClick: 1
-  consumeItem: 1
-  actionsOnClick: {fileID: 2909244775578767784, guid: 2f155492a31fb6649bd9430d9e565ddd, type: 3}
-  equipable: 0
-  fillAllTypes: 0
-  conditionsEquip: {fileID: 654593160526685620, guid: 1f73e3e801ed9794d97564cc4d55ed02, type: 3}
-  actionsOnEquip: {fileID: 200961229319884760, guid: 57df0c77ffad5ef408016f17fb9907e1, type: 3}
-  actionsOnUnequip: {fileID: 3284145762446401528, guid: 2db5412c440513f49b0e755de4704e0a, type: 3}
---- !u!114 &-2499276668320112807
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d6c3b42562c09470ea31efe19c9d3dd9, type: 3}
-  m_Name: item.1708922834
-  m_EditorClassIdentifier: 
-  uuid: 1708922834
-  itemName:
-    content: Machine Gun
+    content: Food
     postProcess: 0
     translationID: 0
   itemDescription:
-    content: Machine gun shooting regular bullets.
+    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. '
     postProcess: 0
     translationID: 0
   itemColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-  sprite: {fileID: 21300000, guid: 87162d0a1ca794dff9f332b8dffd9b24, type: 3}
-  prefab: {fileID: 1200260564779906, guid: d0838917cb453dc4cad3e49b1be3f4b4, type: 3}
+  sprite: {fileID: 21300000, guid: f5bb936a3ec2e6149967169c00fb6c04, type: 3}
+  prefab: {fileID: 0}
   canBeSold: 1
-  price: 400
-  maxStack: 1
-  weight: 10
-  itemTypes: 22
-  onClick: 1
-  consumeItem: 0
-  actionsOnClick: {fileID: 3017052485219582801, guid: 44c7bbadec7508f499c36b14cbc436db, type: 3}
-  equipable: 1
-  fillAllTypes: 1
-  conditionsEquip: {fileID: 500216429123672890, guid: 806acc779eb90b94797d3390fe0e945b, type: 3}
-  actionsOnEquip: {fileID: 5735460379213886191, guid: f30a6038feff12b43b9aefc8ec56ce44, type: 3}
-  actionsOnUnequip: {fileID: 8866692819889904064, guid: 5acc8d06324a0904dafe1b30cf1a45c6, type: 3}
+  price: 30
+  maxStack: 99
+  weight: 20
+  itemTypes: 128
+  onClick: 0
+  consumeItem: 1
+  actionsOnClick: {fileID: 4814293878693399349, guid: 9b832466edb626f4eb756716fbb6f566, type: 3}
+  equipable: 0
+  fillAllTypes: 0
+  conditionsEquip: {fileID: 479918838741639396, guid: 36df22205fba77541b5a78b41201bb45, type: 3}
+  actionsOnEquip: {fileID: 7852154592121327063, guid: 65d7475021674d24f9da703bdab64a5e, type: 3}
+  actionsOnUnequip: {fileID: 650085417797600195, guid: 76305b18dae5a3741a9def9d35613e04, type: 3}
+--- !u!114 &-5230723032140884341
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6c3b42562c09470ea31efe19c9d3dd9, type: 3}
+  m_Name: item.56930103
+  m_EditorClassIdentifier: 
+  uuid: 56930103
+  itemName:
+    content: Solar Panels
+    postProcess: 0
+    translationID: 0
+  itemDescription:
+    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. '
+    postProcess: 0
+    translationID: 0
+  itemColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  sprite: {fileID: 21300000, guid: 7772c7e9029292541a118e0de2efe128, type: 3}
+  prefab: {fileID: 0}
+  canBeSold: 1
+  price: 200
+  maxStack: 99
+  weight: 50
+  itemTypes: 256
+  onClick: 0
+  consumeItem: 1
+  actionsOnClick: {fileID: 4334531757074232793, guid: c7cc7cb876e818e4aae65bd203899aae, type: 3}
+  equipable: 0
+  fillAllTypes: 0
+  conditionsEquip: {fileID: 7891176976850822022, guid: ffbfca9ead5d47846b92061f0d4902c4, type: 3}
+  actionsOnEquip: {fileID: 3212875599757180710, guid: aceaaae49b63e324c861f4b408196ff1, type: 3}
+  actionsOnUnequip: {fileID: 3920239822890168488, guid: d8ab976ab95254d48b1e32a3f2b3093b, type: 3}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -97,8 +99,13 @@ MonoBehaviour:
     - {fileID: 114961875310084520}
     - {fileID: 114212023077505736}
     - {fileID: 114670950127064220}
-    - {fileID: -2499276668320112807}
-    - {fileID: -8123768601438543280}
+    - {fileID: 1547409815275189524}
+    - {fileID: 4763862306786857708}
+    - {fileID: 8215639776665256429}
+    - {fileID: -6732398654033155302}
+    - {fileID: 6218342849034894185}
+    - {fileID: -5230723032140884341}
+    - {fileID: 7529474881671460774}
     recipes:
     - {fileID: 114798038658200360}
     itemTypes:
@@ -127,29 +134,29 @@ MonoBehaviour:
         content: LeftHand
         postProcess: 0
         translationID: 0
-    - id: General/Goods
+    - id: TradeGoods/
       name:
-        content: General goods
+        content: Construction
         postProcess: 0
         translationID: 0
-    - id: 
+    - id: TradeGoods/
       name:
-        content: 
+        content: Goods
         postProcess: 0
         translationID: 0
-    - id: 
+    - id: TradeGoods/
       name:
-        content: 
+        content: Food
         postProcess: 0
         translationID: 0
-    - id: 
+    - id: TradeGoods/
       name:
-        content: 
+        content: Components
         postProcess: 0
         translationID: 0
-    - id: 
+    - id: TradeGoods/
       name:
-        content: 
+        content: Metal
         postProcess: 0
         translationID: 0
     - id: 
@@ -271,7 +278,7 @@ MonoBehaviour:
     cursorDrag: {fileID: 2800000, guid: 21b611b5099004ff38798dfed2a007ad, type: 3}
     cursorDragHotspot: {x: 8, y: 8}
     dragItemsToCombine: 1
-    pauseTimeOnUI: 0
+    pauseTimeOnUI: 1
     canDropItems: 1
     dropItemMaxDistance: 2
     limitInventoryWeight: 1
@@ -903,3 +910,193 @@ MonoBehaviour:
   conditionsEquip: {fileID: 114101755897189266, guid: 42809b3a75ab843d0a2a66a52e4f165b, type: 3}
   actionsOnEquip: {fileID: 114977925338163432, guid: 2221a8836a00145edab0ca452ffaff8e, type: 3}
   actionsOnUnequip: {fileID: 114222569409153632, guid: 0985155c770a847719e899bdb537068d, type: 3}
+--- !u!114 &1547409815275189524
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6c3b42562c09470ea31efe19c9d3dd9, type: 3}
+  m_Name: item.1207097976
+  m_EditorClassIdentifier: 
+  uuid: 1207097976
+  itemName:
+    content: Aluminium
+    postProcess: 0
+    translationID: 0
+  itemDescription:
+    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. '
+    postProcess: 0
+    translationID: 0
+  itemColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  sprite: {fileID: 21300000, guid: 23458105c751f6a45a25d03698eb1b96, type: 3}
+  prefab: {fileID: 0}
+  canBeSold: 1
+  price: 50
+  maxStack: 99
+  weight: 30
+  itemTypes: 32
+  onClick: 0
+  consumeItem: 1
+  actionsOnClick: {fileID: 469061214268953619, guid: b10a66f404972c441b7503d13a31ae68, type: 3}
+  equipable: 0
+  fillAllTypes: 0
+  conditionsEquip: {fileID: 3228396934437047643, guid: f07db66030006674889278dc0ebf24f6, type: 3}
+  actionsOnEquip: {fileID: 8505773197440844941, guid: f0f0f5b3c2bedec40ad0fc2fce80e3b1, type: 3}
+  actionsOnUnequip: {fileID: 4556326016461513430, guid: ec1979fc17a34b240b04352d5e99ec9d, type: 3}
+--- !u!114 &4763862306786857708
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6c3b42562c09470ea31efe19c9d3dd9, type: 3}
+  m_Name: item.1741330457
+  m_EditorClassIdentifier: 
+  uuid: 1741330457
+  itemName:
+    content: Copper
+    postProcess: 0
+    translationID: 0
+  itemDescription:
+    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. '
+    postProcess: 0
+    translationID: 0
+  itemColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  sprite: {fileID: 21300000, guid: 275d1a8553c0aa0488fb75b10f2bc011, type: 3}
+  prefab: {fileID: 0}
+  canBeSold: 1
+  price: 60
+  maxStack: 60
+  weight: 0
+  itemTypes: 32
+  onClick: 0
+  consumeItem: 1
+  actionsOnClick: {fileID: 7306403488551755015, guid: cd1b1208074778f4ebe84a9964c12f8a, type: 3}
+  equipable: 0
+  fillAllTypes: 0
+  conditionsEquip: {fileID: 5239625248363645475, guid: d6506e3e78232134ab78bc4983e2eaa0, type: 3}
+  actionsOnEquip: {fileID: 1631729734693903952, guid: 0aa3e7c53a3f8014c9204c1afc7d7a90, type: 3}
+  actionsOnUnequip: {fileID: 6524287024838563605, guid: 2baa3fcb005e8cb4caf6e813a52aa9af, type: 3}
+--- !u!114 &6218342849034894185
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6c3b42562c09470ea31efe19c9d3dd9, type: 3}
+  m_Name: item.950295738
+  m_EditorClassIdentifier: 
+  uuid: 950295738
+  itemName:
+    content: Medical supplies
+    postProcess: 0
+    translationID: 0
+  itemDescription:
+    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. '
+    postProcess: 0
+    translationID: 0
+  itemColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  sprite: {fileID: 21300000, guid: f07ebc948576ea94fb3f0ce8645152a2, type: 3}
+  prefab: {fileID: 0}
+  canBeSold: 1
+  price: 150
+  maxStack: 99
+  weight: 20
+  itemTypes: 64
+  onClick: 0
+  consumeItem: 1
+  actionsOnClick: {fileID: 8331187826282106724, guid: 36ae55ad10d9d994ca0cd0bfc673d754, type: 3}
+  equipable: 0
+  fillAllTypes: 0
+  conditionsEquip: {fileID: 1679591074204847147, guid: 00cfb2443f090b74bb68de98df17ac08, type: 3}
+  actionsOnEquip: {fileID: 6961288084031825947, guid: a0a504cdd2364b54689d2701edd3f15f, type: 3}
+  actionsOnUnequip: {fileID: 157423357387644573, guid: c424de389f514c548bde45f74839a674, type: 3}
+--- !u!114 &7529474881671460774
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6c3b42562c09470ea31efe19c9d3dd9, type: 3}
+  m_Name: item.2049991872
+  m_EditorClassIdentifier: 
+  uuid: 2049991872
+  itemName:
+    content: Water
+    postProcess: 0
+    translationID: 0
+  itemDescription:
+    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. '
+    postProcess: 0
+    translationID: 0
+  itemColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  sprite: {fileID: 21300000, guid: ce1f394d6d3c5d14d9befc439625a9ae, type: 3}
+  prefab: {fileID: 0}
+  canBeSold: 1
+  price: 10
+  maxStack: 99
+  weight: 20
+  itemTypes: 128
+  onClick: 0
+  consumeItem: 1
+  actionsOnClick: {fileID: 8743652372424617744, guid: 520ec87c5c94c0e46af5f0cf32842bbc, type: 3}
+  equipable: 0
+  fillAllTypes: 0
+  conditionsEquip: {fileID: 67287286245629547, guid: a78f83a11355a12489495e8fb33baf1a, type: 3}
+  actionsOnEquip: {fileID: 3770386774377008900, guid: 43e76e295f954fc49a39d706ef963a0c, type: 3}
+  actionsOnUnequip: {fileID: 4621427732422532721, guid: c4220380168bcb64bb792534b1ccbefc, type: 3}
+--- !u!114 &8215639776665256429
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6c3b42562c09470ea31efe19c9d3dd9, type: 3}
+  m_Name: item.968074646
+  m_EditorClassIdentifier: 
+  uuid: 968074646
+  itemName:
+    content: Filament
+    postProcess: 0
+    translationID: 0
+  itemDescription:
+    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. '
+    postProcess: 0
+    translationID: 0
+  itemColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  sprite: {fileID: 21300000, guid: 57eaf19704176404d9499cea7536b21f, type: 3}
+  prefab: {fileID: 0}
+  canBeSold: 1
+  price: 20
+  maxStack: 99
+  weight: 15
+  itemTypes: 256
+  onClick: 0
+  consumeItem: 1
+  actionsOnClick: {fileID: 1342744129879420566, guid: 8b7a673706cdbca44baa5f25040030c7, type: 3}
+  equipable: 0
+  fillAllTypes: 0
+  conditionsEquip: {fileID: 8074748465655032499, guid: d305c23747ead2847a487c71a90f965f, type: 3}
+  actionsOnEquip: {fileID: 3426846426489744593, guid: 21a6617d889ea324487a0fba583cf4e9, type: 3}
+  actionsOnUnequip: {fileID: 204674173685289655, guid: ad52d424b2171eb4889e5c0bd3e539c3, type: 3}

@@ -12,39 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e3f2d8ee490d4908ab7414aa1ba761c, type: 3}
   m_Name: DatabaseLocalization
   m_EditorClassIdentifier: 
-  languages:
-  - language: 10
-    updateDate: 30.11.2020. 1:01
-  - language: 31
-    updateDate: 30.11.2020. 1:11
-  translationList:
-  - key: 696025961
-    placeholder: PLAYER
-    content: []
-  - key: 939800900
-    placeholder: SHIP
-    content: []
-  - key: 286088048
-    placeholder: LOAD LAST SAVE
-    content: []
-  - key: -1928623659
-    placeholder: MAIN MENU
-    content: []
-  - key: -1556707897
-    placeholder: MISSION
-    content: []
-  - key: -694999060
-    placeholder: ALL
-    content: []
-  - key: 613506599
-    placeholder: RESUME
-    content: []
-  - key: -2051366529
-    placeholder: Equipment
-    content: []
-  - key: -1586569862
-    placeholder: Iron
-    content: []
-  - key: 20842404
-    placeholder: General purpuse iron
-    content: []
+  languages: []
+  translationList: []
