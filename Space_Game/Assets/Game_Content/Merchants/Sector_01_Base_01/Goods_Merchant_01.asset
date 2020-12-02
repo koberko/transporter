@@ -13,21 +13,37 @@ MonoBehaviour:
   m_Name: Goods_Merchant_01
   m_EditorClassIdentifier: 
   uuid: 1d124136dbff4d7d8411a6c81418031a
-  title: Goods Marketplace
+  title: Alpha Market
   description: Buy and sell general use goods
-  merchantUI: {fileID: 1350400326529822948, guid: 2952f6d1a88dcaf4bbcb860ee4bb16a0, type: 3}
+  merchantUI: {fileID: 1776935227048216, guid: 306f253234f52b14eb2d85a8c2837b51, type: 3}
   warehouse:
     wares:
     - item:
-        item: {fileID: 114876379292609582, guid: 7db43c44761c8486cb3f2e9968376eb5, type: 2}
+        item: {fileID: 1547409815275189524, guid: 7db43c44761c8486cb3f2e9968376eb5, type: 2}
       limitAmount: 0
       maxAmount: 0
     - item:
-        item: {fileID: 114273004538180096, guid: 7db43c44761c8486cb3f2e9968376eb5, type: 2}
+        item: {fileID: 4763862306786857708, guid: 7db43c44761c8486cb3f2e9968376eb5, type: 2}
       limitAmount: 0
       maxAmount: 0
     - item:
-        item: {fileID: 114973290084467346, guid: 7db43c44761c8486cb3f2e9968376eb5, type: 2}
+        item: {fileID: 8215639776665256429, guid: 7db43c44761c8486cb3f2e9968376eb5, type: 2}
+      limitAmount: 0
+      maxAmount: 0
+    - item:
+        item: {fileID: -6732398654033155302, guid: 7db43c44761c8486cb3f2e9968376eb5, type: 2}
+      limitAmount: 0
+      maxAmount: 0
+    - item:
+        item: {fileID: 6218342849034894185, guid: 7db43c44761c8486cb3f2e9968376eb5, type: 2}
+      limitAmount: 0
+      maxAmount: 0
+    - item:
+        item: {fileID: -5230723032140884341, guid: 7db43c44761c8486cb3f2e9968376eb5, type: 2}
+      limitAmount: 0
+      maxAmount: 0
+    - item:
+        item: {fileID: 7529474881671460774, guid: 7db43c44761c8486cb3f2e9968376eb5, type: 2}
       limitAmount: 0
       maxAmount: 0
   purchasePercent:
@@ -44,7 +60,7 @@ MonoBehaviour:
     list:
       targetType: 3
       targetObject: {fileID: 0}
-      select: 1
+      select: 0
       index: 0
   sellPercent:
     optionIndex: 0

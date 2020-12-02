@@ -1,5 +1,81 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6732398654033155302
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6c3b42562c09470ea31efe19c9d3dd9, type: 3}
+  m_Name: item.1378503747
+  m_EditorClassIdentifier: 
+  uuid: 1378503747
+  itemName:
+    content: Food
+    postProcess: 0
+    translationID: 0
+  itemDescription:
+    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. '
+    postProcess: 0
+    translationID: 0
+  itemColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  sprite: {fileID: 21300000, guid: f5bb936a3ec2e6149967169c00fb6c04, type: 3}
+  prefab: {fileID: 0}
+  canBeSold: 1
+  price: 30
+  maxStack: 99
+  weight: 20
+  itemTypes: 128
+  onClick: 0
+  consumeItem: 1
+  actionsOnClick: {fileID: 4814293878693399349, guid: 9b832466edb626f4eb756716fbb6f566, type: 3}
+  equipable: 0
+  fillAllTypes: 0
+  conditionsEquip: {fileID: 479918838741639396, guid: 36df22205fba77541b5a78b41201bb45, type: 3}
+  actionsOnEquip: {fileID: 7852154592121327063, guid: 65d7475021674d24f9da703bdab64a5e, type: 3}
+  actionsOnUnequip: {fileID: 650085417797600195, guid: 76305b18dae5a3741a9def9d35613e04, type: 3}
+--- !u!114 &-5230723032140884341
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6c3b42562c09470ea31efe19c9d3dd9, type: 3}
+  m_Name: item.56930103
+  m_EditorClassIdentifier: 
+  uuid: 56930103
+  itemName:
+    content: Solar Panels
+    postProcess: 0
+    translationID: 0
+  itemDescription:
+    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. '
+    postProcess: 0
+    translationID: 0
+  itemColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  sprite: {fileID: 21300000, guid: 7772c7e9029292541a118e0de2efe128, type: 3}
+  prefab: {fileID: 0}
+  canBeSold: 1
+  price: 200
+  maxStack: 99
+  weight: 50
+  itemTypes: 256
+  onClick: 0
+  consumeItem: 1
+  actionsOnClick: {fileID: 4334531757074232793, guid: c7cc7cb876e818e4aae65bd203899aae, type: 3}
+  equipable: 0
+  fillAllTypes: 0
+  conditionsEquip: {fileID: 7891176976850822022, guid: ffbfca9ead5d47846b92061f0d4902c4, type: 3}
+  actionsOnEquip: {fileID: 3212875599757180710, guid: aceaaae49b63e324c861f4b408196ff1, type: 3}
+  actionsOnUnequip: {fileID: 3920239822890168488, guid: d8ab976ab95254d48b1e32a3f2b3093b, type: 3}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23,6 +99,13 @@ MonoBehaviour:
     - {fileID: 114961875310084520}
     - {fileID: 114212023077505736}
     - {fileID: 114670950127064220}
+    - {fileID: 1547409815275189524}
+    - {fileID: 4763862306786857708}
+    - {fileID: 8215639776665256429}
+    - {fileID: -6732398654033155302}
+    - {fileID: 6218342849034894185}
+    - {fileID: -5230723032140884341}
+    - {fileID: 7529474881671460774}
     recipes:
     - {fileID: 114798038658200360}
     itemTypes:
@@ -51,29 +134,29 @@ MonoBehaviour:
         content: LeftHand
         postProcess: 0
         translationID: 0
-    - id: 
+    - id: TradeGoods/
       name:
-        content: 
+        content: Construction
         postProcess: 0
         translationID: 0
-    - id: 
+    - id: TradeGoods/
       name:
-        content: 
+        content: Goods
         postProcess: 0
         translationID: 0
-    - id: 
+    - id: TradeGoods/
       name:
-        content: 
+        content: Food
         postProcess: 0
         translationID: 0
-    - id: 
+    - id: TradeGoods/
       name:
-        content: 
+        content: Components
         postProcess: 0
         translationID: 0
-    - id: 
+    - id: TradeGoods/
       name:
-        content: 
+        content: Metal
         postProcess: 0
         translationID: 0
     - id: 
@@ -189,8 +272,7 @@ MonoBehaviour:
   inventorySettings:
     merchantUIPrefab: {fileID: 0}
     containerUIPrefab: {fileID: 0}
-    inventoryUIPrefab: {fileID: 1776935227048216, guid: 8d2fd14a2c95a4818a01edf51761b09d,
-      type: 3}
+    inventoryUIPrefab: {fileID: 0}
     onDragGrabItem: 1
     saveInventory: 1
     cursorDrag: {fileID: 2800000, guid: 21b611b5099004ff38798dfed2a007ad, type: 3}
@@ -284,16 +366,12 @@ MonoBehaviour:
   itemTypes: 10
   onClick: 1
   consumeItem: 0
-  actionsOnClick: {fileID: 114304329568707516, guid: 3664d0efba40844f0989b1e934ebee0b,
-    type: 3}
+  actionsOnClick: {fileID: 114304329568707516, guid: 3664d0efba40844f0989b1e934ebee0b, type: 3}
   equipable: 1
   fillAllTypes: 0
-  conditionsEquip: {fileID: 114751885000909132, guid: 13e70ea735f93440ba2eddf6d8762130,
-    type: 3}
-  actionsOnEquip: {fileID: 114508125594269486, guid: f57fc0caa035a496189d4c21fa68b57e,
-    type: 3}
-  actionsOnUnequip: {fileID: 114493396764035258, guid: 45b6a6d28a6854953a28264a26421438,
-    type: 3}
+  conditionsEquip: {fileID: 114751885000909132, guid: 13e70ea735f93440ba2eddf6d8762130, type: 3}
+  actionsOnEquip: {fileID: 114508125594269486, guid: f57fc0caa035a496189d4c21fa68b57e, type: 3}
+  actionsOnUnequip: {fileID: 114493396764035258, guid: 45b6a6d28a6854953a28264a26421438, type: 3}
 --- !u!114 &114177772742640968
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -325,16 +403,12 @@ MonoBehaviour:
   itemTypes: 1
   onClick: 0
   consumeItem: 1
-  actionsOnClick: {fileID: 114455550709671036, guid: e0f24da964b664ceca0096f3ef2ed016,
-    type: 3}
+  actionsOnClick: {fileID: 114455550709671036, guid: e0f24da964b664ceca0096f3ef2ed016, type: 3}
   equipable: 0
   fillAllTypes: 0
-  conditionsEquip: {fileID: 114392523671361192, guid: 7e5fd7bb9f20e49a18f4fd7a2274c525,
-    type: 3}
-  actionsOnEquip: {fileID: 114345348046723840, guid: b3bb9053435fc475b9386db8cb4899c8,
-    type: 3}
-  actionsOnUnequip: {fileID: 114407772788872336, guid: c4df6334069da4226a004b8b138755c4,
-    type: 3}
+  conditionsEquip: {fileID: 114392523671361192, guid: 7e5fd7bb9f20e49a18f4fd7a2274c525, type: 3}
+  actionsOnEquip: {fileID: 114345348046723840, guid: b3bb9053435fc475b9386db8cb4899c8, type: 3}
+  actionsOnUnequip: {fileID: 114407772788872336, guid: c4df6334069da4226a004b8b138755c4, type: 3}
 --- !u!114 &114202326578594358
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -366,16 +440,12 @@ MonoBehaviour:
   itemTypes: 6
   onClick: 1
   consumeItem: 0
-  actionsOnClick: {fileID: 114376854373756430, guid: 60d93fc04c4b14a01b24c35f51a924e7,
-    type: 3}
+  actionsOnClick: {fileID: 114376854373756430, guid: 60d93fc04c4b14a01b24c35f51a924e7, type: 3}
   equipable: 1
   fillAllTypes: 0
-  conditionsEquip: {fileID: 114711394317633460, guid: 9a83779ce24cb4cb7aa6096b962f778d,
-    type: 3}
-  actionsOnEquip: {fileID: 114579303995260872, guid: 1d06bd9a28a544d1696736b1f70bc36f,
-    type: 3}
-  actionsOnUnequip: {fileID: 114862963190555666, guid: a83d97d34a1494808814958dc7b7be7e,
-    type: 3}
+  conditionsEquip: {fileID: 114711394317633460, guid: 9a83779ce24cb4cb7aa6096b962f778d, type: 3}
+  actionsOnEquip: {fileID: 114579303995260872, guid: 1d06bd9a28a544d1696736b1f70bc36f, type: 3}
+  actionsOnUnequip: {fileID: 114862963190555666, guid: a83d97d34a1494808814958dc7b7be7e, type: 3}
 --- !u!114 &114212023077505736
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -407,16 +477,12 @@ MonoBehaviour:
   itemTypes: 10
   onClick: 1
   consumeItem: 0
-  actionsOnClick: {fileID: 114304329568707516, guid: 3664d0efba40844f0989b1e934ebee0b,
-    type: 3}
+  actionsOnClick: {fileID: 114304329568707516, guid: 3664d0efba40844f0989b1e934ebee0b, type: 3}
   equipable: 1
   fillAllTypes: 0
-  conditionsEquip: {fileID: 114751885000909132, guid: 13e70ea735f93440ba2eddf6d8762130,
-    type: 3}
-  actionsOnEquip: {fileID: 114508125594269486, guid: f57fc0caa035a496189d4c21fa68b57e,
-    type: 3}
-  actionsOnUnequip: {fileID: 114493396764035258, guid: 45b6a6d28a6854953a28264a26421438,
-    type: 3}
+  conditionsEquip: {fileID: 114751885000909132, guid: 13e70ea735f93440ba2eddf6d8762130, type: 3}
+  actionsOnEquip: {fileID: 114508125594269486, guid: f57fc0caa035a496189d4c21fa68b57e, type: 3}
+  actionsOnUnequip: {fileID: 114493396764035258, guid: 45b6a6d28a6854953a28264a26421438, type: 3}
 --- !u!114 &114273004538180096
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -448,16 +514,12 @@ MonoBehaviour:
   itemTypes: 1
   onClick: 1
   consumeItem: 1
-  actionsOnClick: {fileID: 114524400458103072, guid: f08bcf1f9777a4aacbe8c7212ba829f3,
-    type: 3}
+  actionsOnClick: {fileID: 114524400458103072, guid: f08bcf1f9777a4aacbe8c7212ba829f3, type: 3}
   equipable: 0
   fillAllTypes: 0
-  conditionsEquip: {fileID: 114513000615584926, guid: 9aa3cca51e7224feba8c6ea145517e10,
-    type: 3}
-  actionsOnEquip: {fileID: 114633352763934166, guid: e142656f6e0a54ec6887167223a95360,
-    type: 3}
-  actionsOnUnequip: {fileID: 114667113230836406, guid: 06b792e55efaf43d1917c92f65ee02c0,
-    type: 3}
+  conditionsEquip: {fileID: 114513000615584926, guid: 9aa3cca51e7224feba8c6ea145517e10, type: 3}
+  actionsOnEquip: {fileID: 114633352763934166, guid: e142656f6e0a54ec6887167223a95360, type: 3}
+  actionsOnUnequip: {fileID: 114667113230836406, guid: 06b792e55efaf43d1917c92f65ee02c0, type: 3}
 --- !u!114 &114434062760271028
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -526,16 +588,12 @@ MonoBehaviour:
   itemTypes: 10
   onClick: 1
   consumeItem: 0
-  actionsOnClick: {fileID: 114304329568707516, guid: f7c5ad8e59302427ebdb4f9b6a4fddd9,
-    type: 3}
+  actionsOnClick: {fileID: 114304329568707516, guid: f7c5ad8e59302427ebdb4f9b6a4fddd9, type: 3}
   equipable: 1
   fillAllTypes: 0
-  conditionsEquip: {fileID: 114751885000909132, guid: 07fda723bd5b14b8ba1db77bee29db0f,
-    type: 3}
-  actionsOnEquip: {fileID: 114508125594269486, guid: 0e958b5f7b8eb4e95a4a6fd71366cda1,
-    type: 3}
-  actionsOnUnequip: {fileID: 114493396764035258, guid: 1788ecd5dd1af43869c97d7f422e3797,
-    type: 3}
+  conditionsEquip: {fileID: 114751885000909132, guid: 07fda723bd5b14b8ba1db77bee29db0f, type: 3}
+  actionsOnEquip: {fileID: 114508125594269486, guid: 0e958b5f7b8eb4e95a4a6fd71366cda1, type: 3}
+  actionsOnUnequip: {fileID: 114493396764035258, guid: 1788ecd5dd1af43869c97d7f422e3797, type: 3}
 --- !u!114 &114755425383334400
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -666,8 +724,7 @@ MonoBehaviour:
     item: {fileID: 114177772742640968}
   amountB: 1
   removeItemsOnCraft: 1
-  actionsList: {fileID: 114940443500244628, guid: b4341ef21780b4c8a9dd9e8ec54d9686,
-    type: 3}
+  actionsList: {fileID: 114940443500244628, guid: b4341ef21780b4c8a9dd9e8ec54d9686, type: 3}
 --- !u!114 &114826305866355372
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -699,16 +756,12 @@ MonoBehaviour:
   itemTypes: 18
   onClick: 1
   consumeItem: 0
-  actionsOnClick: {fileID: 114376854373756430, guid: ccb56e205e02b4ee5bf36591e214583d,
-    type: 3}
+  actionsOnClick: {fileID: 114376854373756430, guid: ccb56e205e02b4ee5bf36591e214583d, type: 3}
   equipable: 1
   fillAllTypes: 0
-  conditionsEquip: {fileID: 114711394317633460, guid: f3b19620028e34a688211eaa0c852580,
-    type: 3}
-  actionsOnEquip: {fileID: 114579303995260872, guid: 9afef09e41a0c4f038e65555d3a640e4,
-    type: 3}
-  actionsOnUnequip: {fileID: 114862963190555666, guid: a78a32417cc9e41ceb15fc88f711d5cf,
-    type: 3}
+  conditionsEquip: {fileID: 114711394317633460, guid: f3b19620028e34a688211eaa0c852580, type: 3}
+  actionsOnEquip: {fileID: 114579303995260872, guid: 9afef09e41a0c4f038e65555d3a640e4, type: 3}
+  actionsOnUnequip: {fileID: 114862963190555666, guid: a78a32417cc9e41ceb15fc88f711d5cf, type: 3}
 --- !u!114 &114876379292609582
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -740,16 +793,12 @@ MonoBehaviour:
   itemTypes: 1
   onClick: 0
   consumeItem: 1
-  actionsOnClick: {fileID: 114299862846821014, guid: 76a99c4c78d1547739fe9f73fdd73477,
-    type: 3}
+  actionsOnClick: {fileID: 114299862846821014, guid: 76a99c4c78d1547739fe9f73fdd73477, type: 3}
   equipable: 0
   fillAllTypes: 0
-  conditionsEquip: {fileID: 114517809525433964, guid: a945b205017334077a8bed0964efb826,
-    type: 3}
-  actionsOnEquip: {fileID: 114061426364942772, guid: 3ceb5685076874d4abbf989d7b8535d2,
-    type: 3}
-  actionsOnUnequip: {fileID: 114459398785370502, guid: dd5ba52d1b5984b1cb9b7670f56e767c,
-    type: 3}
+  conditionsEquip: {fileID: 114517809525433964, guid: a945b205017334077a8bed0964efb826, type: 3}
+  actionsOnEquip: {fileID: 114061426364942772, guid: 3ceb5685076874d4abbf989d7b8535d2, type: 3}
+  actionsOnUnequip: {fileID: 114459398785370502, guid: dd5ba52d1b5984b1cb9b7670f56e767c, type: 3}
 --- !u!114 &114920623156245654
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -818,16 +867,12 @@ MonoBehaviour:
   itemTypes: 22
   onClick: 1
   consumeItem: 0
-  actionsOnClick: {fileID: 114481369062043594, guid: c8a8ed2e2817a4237a127b2c95721daf,
-    type: 3}
+  actionsOnClick: {fileID: 114481369062043594, guid: c8a8ed2e2817a4237a127b2c95721daf, type: 3}
   equipable: 1
   fillAllTypes: 1
-  conditionsEquip: {fileID: 114433509760340908, guid: e4bc4da8051f34411a6295c095d026d1,
-    type: 3}
-  actionsOnEquip: {fileID: 114397559460990426, guid: 6759bffa91bf8437a89cb3b64da119f4,
-    type: 3}
-  actionsOnUnequip: {fileID: 114873956412295212, guid: 99ea921a4177c40b681fbeea1b223173,
-    type: 3}
+  conditionsEquip: {fileID: 114433509760340908, guid: e4bc4da8051f34411a6295c095d026d1, type: 3}
+  actionsOnEquip: {fileID: 114397559460990426, guid: 6759bffa91bf8437a89cb3b64da119f4, type: 3}
+  actionsOnUnequip: {fileID: 114873956412295212, guid: 99ea921a4177c40b681fbeea1b223173, type: 3}
 --- !u!114 &114973290084467346
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -859,13 +904,199 @@ MonoBehaviour:
   itemTypes: 1
   onClick: 1
   consumeItem: 1
-  actionsOnClick: {fileID: 114086370648568720, guid: 8ba11ac483a064bd48aedfa83453a51a,
-    type: 3}
+  actionsOnClick: {fileID: 114086370648568720, guid: 8ba11ac483a064bd48aedfa83453a51a, type: 3}
   equipable: 0
   fillAllTypes: 0
-  conditionsEquip: {fileID: 114101755897189266, guid: 42809b3a75ab843d0a2a66a52e4f165b,
-    type: 3}
-  actionsOnEquip: {fileID: 114977925338163432, guid: 2221a8836a00145edab0ca452ffaff8e,
-    type: 3}
-  actionsOnUnequip: {fileID: 114222569409153632, guid: 0985155c770a847719e899bdb537068d,
-    type: 3}
+  conditionsEquip: {fileID: 114101755897189266, guid: 42809b3a75ab843d0a2a66a52e4f165b, type: 3}
+  actionsOnEquip: {fileID: 114977925338163432, guid: 2221a8836a00145edab0ca452ffaff8e, type: 3}
+  actionsOnUnequip: {fileID: 114222569409153632, guid: 0985155c770a847719e899bdb537068d, type: 3}
+--- !u!114 &1547409815275189524
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6c3b42562c09470ea31efe19c9d3dd9, type: 3}
+  m_Name: item.1207097976
+  m_EditorClassIdentifier: 
+  uuid: 1207097976
+  itemName:
+    content: Aluminium
+    postProcess: 0
+    translationID: 0
+  itemDescription:
+    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. '
+    postProcess: 0
+    translationID: 0
+  itemColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  sprite: {fileID: 21300000, guid: 23458105c751f6a45a25d03698eb1b96, type: 3}
+  prefab: {fileID: 0}
+  canBeSold: 1
+  price: 50
+  maxStack: 99
+  weight: 30
+  itemTypes: 32
+  onClick: 0
+  consumeItem: 1
+  actionsOnClick: {fileID: 469061214268953619, guid: b10a66f404972c441b7503d13a31ae68, type: 3}
+  equipable: 0
+  fillAllTypes: 0
+  conditionsEquip: {fileID: 3228396934437047643, guid: f07db66030006674889278dc0ebf24f6, type: 3}
+  actionsOnEquip: {fileID: 8505773197440844941, guid: f0f0f5b3c2bedec40ad0fc2fce80e3b1, type: 3}
+  actionsOnUnequip: {fileID: 4556326016461513430, guid: ec1979fc17a34b240b04352d5e99ec9d, type: 3}
+--- !u!114 &4763862306786857708
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6c3b42562c09470ea31efe19c9d3dd9, type: 3}
+  m_Name: item.1741330457
+  m_EditorClassIdentifier: 
+  uuid: 1741330457
+  itemName:
+    content: Copper
+    postProcess: 0
+    translationID: 0
+  itemDescription:
+    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. '
+    postProcess: 0
+    translationID: 0
+  itemColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  sprite: {fileID: 21300000, guid: 275d1a8553c0aa0488fb75b10f2bc011, type: 3}
+  prefab: {fileID: 0}
+  canBeSold: 1
+  price: 60
+  maxStack: 60
+  weight: 0
+  itemTypes: 32
+  onClick: 0
+  consumeItem: 1
+  actionsOnClick: {fileID: 7306403488551755015, guid: cd1b1208074778f4ebe84a9964c12f8a, type: 3}
+  equipable: 0
+  fillAllTypes: 0
+  conditionsEquip: {fileID: 5239625248363645475, guid: d6506e3e78232134ab78bc4983e2eaa0, type: 3}
+  actionsOnEquip: {fileID: 1631729734693903952, guid: 0aa3e7c53a3f8014c9204c1afc7d7a90, type: 3}
+  actionsOnUnequip: {fileID: 6524287024838563605, guid: 2baa3fcb005e8cb4caf6e813a52aa9af, type: 3}
+--- !u!114 &6218342849034894185
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6c3b42562c09470ea31efe19c9d3dd9, type: 3}
+  m_Name: item.950295738
+  m_EditorClassIdentifier: 
+  uuid: 950295738
+  itemName:
+    content: Medical supplies
+    postProcess: 0
+    translationID: 0
+  itemDescription:
+    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. '
+    postProcess: 0
+    translationID: 0
+  itemColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  sprite: {fileID: 21300000, guid: f07ebc948576ea94fb3f0ce8645152a2, type: 3}
+  prefab: {fileID: 0}
+  canBeSold: 1
+  price: 150
+  maxStack: 99
+  weight: 20
+  itemTypes: 64
+  onClick: 0
+  consumeItem: 1
+  actionsOnClick: {fileID: 8331187826282106724, guid: 36ae55ad10d9d994ca0cd0bfc673d754, type: 3}
+  equipable: 0
+  fillAllTypes: 0
+  conditionsEquip: {fileID: 1679591074204847147, guid: 00cfb2443f090b74bb68de98df17ac08, type: 3}
+  actionsOnEquip: {fileID: 6961288084031825947, guid: a0a504cdd2364b54689d2701edd3f15f, type: 3}
+  actionsOnUnequip: {fileID: 157423357387644573, guid: c424de389f514c548bde45f74839a674, type: 3}
+--- !u!114 &7529474881671460774
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6c3b42562c09470ea31efe19c9d3dd9, type: 3}
+  m_Name: item.2049991872
+  m_EditorClassIdentifier: 
+  uuid: 2049991872
+  itemName:
+    content: Water
+    postProcess: 0
+    translationID: 0
+  itemDescription:
+    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. '
+    postProcess: 0
+    translationID: 0
+  itemColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  sprite: {fileID: 21300000, guid: ce1f394d6d3c5d14d9befc439625a9ae, type: 3}
+  prefab: {fileID: 0}
+  canBeSold: 1
+  price: 10
+  maxStack: 99
+  weight: 20
+  itemTypes: 128
+  onClick: 0
+  consumeItem: 1
+  actionsOnClick: {fileID: 8743652372424617744, guid: 520ec87c5c94c0e46af5f0cf32842bbc, type: 3}
+  equipable: 0
+  fillAllTypes: 0
+  conditionsEquip: {fileID: 67287286245629547, guid: a78f83a11355a12489495e8fb33baf1a, type: 3}
+  actionsOnEquip: {fileID: 3770386774377008900, guid: 43e76e295f954fc49a39d706ef963a0c, type: 3}
+  actionsOnUnequip: {fileID: 4621427732422532721, guid: c4220380168bcb64bb792534b1ccbefc, type: 3}
+--- !u!114 &8215639776665256429
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6c3b42562c09470ea31efe19c9d3dd9, type: 3}
+  m_Name: item.968074646
+  m_EditorClassIdentifier: 
+  uuid: 968074646
+  itemName:
+    content: Filament
+    postProcess: 0
+    translationID: 0
+  itemDescription:
+    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. '
+    postProcess: 0
+    translationID: 0
+  itemColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  sprite: {fileID: 21300000, guid: 57eaf19704176404d9499cea7536b21f, type: 3}
+  prefab: {fileID: 0}
+  canBeSold: 1
+  price: 20
+  maxStack: 99
+  weight: 15
+  itemTypes: 256
+  onClick: 0
+  consumeItem: 1
+  actionsOnClick: {fileID: 1342744129879420566, guid: 8b7a673706cdbca44baa5f25040030c7, type: 3}
+  equipable: 0
+  fillAllTypes: 0
+  conditionsEquip: {fileID: 8074748465655032499, guid: d305c23747ead2847a487c71a90f965f, type: 3}
+  actionsOnEquip: {fileID: 3426846426489744593, guid: 21a6617d889ea324487a0fba583cf4e9, type: 3}
+  actionsOnUnequip: {fileID: 204674173685289655, guid: ad52d424b2171eb4889e5c0bd3e539c3, type: 3}
