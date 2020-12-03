@@ -15,21 +15,27 @@ MonoBehaviour:
   uuid: 1d124136dbff4d7d8411a6c81418031a
   title: Beta Market
   description: Buy and sell general use goods
-  merchantUI: {fileID: 1776935227048216, guid: a61c70cd641917142b22c324d371e38e, type: 3}
+  merchantUI: {fileID: 1776935227048216, guid: 306f253234f52b14eb2d85a8c2837b51, type: 3}
   warehouse:
     wares:
     - item:
         item: {fileID: 1547409815275189524, guid: 7db43c44761c8486cb3f2e9968376eb5, type: 2}
       limitAmount: 0
       maxAmount: 0
+      ItemSellModifier: 1
+      ItemBuyModifier: 1
     - item:
         item: {fileID: 4763862306786857708, guid: 7db43c44761c8486cb3f2e9968376eb5, type: 2}
       limitAmount: 0
       maxAmount: 0
+      ItemSellModifier: 1
+      ItemBuyModifier: 1
     - item:
         item: {fileID: 8215639776665256429, guid: 7db43c44761c8486cb3f2e9968376eb5, type: 2}
       limitAmount: 0
       maxAmount: 0
+      ItemSellModifier: 1
+      ItemBuyModifier: 1
   purchasePercent:
     optionIndex: 0
     value: 0.7

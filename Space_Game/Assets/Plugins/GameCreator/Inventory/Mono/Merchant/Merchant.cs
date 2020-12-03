@@ -16,6 +16,8 @@
             public ItemHolder item = new ItemHolder();
             public bool limitAmount = false;
             public int maxAmount = 10;
+            public float ItemSellModifier = 1f;
+            public float ItemBuyModifier = 1f;
         }
 
         [System.Serializable]

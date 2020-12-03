@@ -23,7 +23,7 @@ MonoBehaviour:
     postProcess: 0
     translationID: 0
   itemColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-  sprite: {fileID: 21300000, guid: f5bb936a3ec2e6149967169c00fb6c04, type: 3}
+  sprite: {fileID: 21300000, guid: c97e8b6421a241d4a80281af9079e4e5, type: 3}
   prefab: {fileID: 0}
   canBeSold: 1
   price: 30
@@ -61,7 +61,7 @@ MonoBehaviour:
     postProcess: 0
     translationID: 0
   itemColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-  sprite: {fileID: 21300000, guid: 7772c7e9029292541a118e0de2efe128, type: 3}
+  sprite: {fileID: 21300000, guid: cd467151b1161d3409648d2ab0caab1e, type: 3}
   prefab: {fileID: 0}
   canBeSold: 1
   price: 200
@@ -76,6 +76,43 @@ MonoBehaviour:
   conditionsEquip: {fileID: 7891176976850822022, guid: ffbfca9ead5d47846b92061f0d4902c4, type: 3}
   actionsOnEquip: {fileID: 3212875599757180710, guid: aceaaae49b63e324c861f4b408196ff1, type: 3}
   actionsOnUnequip: {fileID: 3920239822890168488, guid: d8ab976ab95254d48b1e32a3f2b3093b, type: 3}
+--- !u!114 &-2794588823927901364
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6c3b42562c09470ea31efe19c9d3dd9, type: 3}
+  m_Name: item.392639922
+  m_EditorClassIdentifier: 
+  uuid: 392639922
+  itemName:
+    content: Pistol mk.1
+    postProcess: 0
+    translationID: 0
+  itemDescription:
+    content: Basic pistol that fires projectile rounds
+    postProcess: 0
+    translationID: 0
+  itemColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  sprite: {fileID: 21300000, guid: 0031e216516399e43a107044e379257a, type: 3}
+  prefab: {fileID: 1880625261243408, guid: 054873fb4d8fb414f9c75a47ff19cfe1, type: 3}
+  canBeSold: 1
+  price: 250
+  maxStack: 1
+  weight: 10
+  itemTypes: 1030
+  onClick: 1
+  consumeItem: 0
+  actionsOnClick: {fileID: 980362713626366402, guid: 05c3ad5f44be4ff4eb84a8b70fe83b17, type: 3}
+  equipable: 1
+  fillAllTypes: 0
+  conditionsEquip: {fileID: 8159773288639371780, guid: 255d1b6757e15ad499793cee1922456c, type: 3}
+  actionsOnEquip: {fileID: 3457759435687611973, guid: 038d39763e91a854398ee94872d56280, type: 3}
+  actionsOnUnequip: {fileID: 8354918368049236475, guid: 96391edb40af4794ea1ba6863b7e5f03, type: 3}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -106,6 +143,7 @@ MonoBehaviour:
     - {fileID: 6218342849034894185}
     - {fileID: -5230723032140884341}
     - {fileID: 7529474881671460774}
+    - {fileID: -2794588823927901364}
     recipes:
     - {fileID: 114798038658200360}
     itemTypes:
@@ -159,9 +197,9 @@ MonoBehaviour:
         content: Metal
         postProcess: 0
         translationID: 0
-    - id: 
+    - id: Weapons/
       name:
-        content: 
+        content: Guns
         postProcess: 0
         translationID: 0
     - id: 
@@ -933,7 +971,7 @@ MonoBehaviour:
     postProcess: 0
     translationID: 0
   itemColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-  sprite: {fileID: 21300000, guid: 23458105c751f6a45a25d03698eb1b96, type: 3}
+  sprite: {fileID: 21300000, guid: 71a5c19d025747a4fafcd60b8c40b583, type: 3}
   prefab: {fileID: 0}
   canBeSold: 1
   price: 50
@@ -971,7 +1009,7 @@ MonoBehaviour:
     postProcess: 0
     translationID: 0
   itemColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-  sprite: {fileID: 21300000, guid: 275d1a8553c0aa0488fb75b10f2bc011, type: 3}
+  sprite: {fileID: 21300000, guid: 19c5293f47b8a7a43b787f00c5f2e9ac, type: 3}
   prefab: {fileID: 0}
   canBeSold: 1
   price: 60
@@ -1009,7 +1047,7 @@ MonoBehaviour:
     postProcess: 0
     translationID: 0
   itemColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-  sprite: {fileID: 21300000, guid: f07ebc948576ea94fb3f0ce8645152a2, type: 3}
+  sprite: {fileID: 21300000, guid: 34c5cd21222bc7840a76d214e4983f93, type: 3}
   prefab: {fileID: 0}
   canBeSold: 1
   price: 150
@@ -1047,7 +1085,7 @@ MonoBehaviour:
     postProcess: 0
     translationID: 0
   itemColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-  sprite: {fileID: 21300000, guid: ce1f394d6d3c5d14d9befc439625a9ae, type: 3}
+  sprite: {fileID: 21300000, guid: d0e6e664f6f75ef45b52ac7cf448a5c2, type: 3}
   prefab: {fileID: 0}
   canBeSold: 1
   price: 10
@@ -1085,7 +1123,7 @@ MonoBehaviour:
     postProcess: 0
     translationID: 0
   itemColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-  sprite: {fileID: 21300000, guid: 57eaf19704176404d9499cea7536b21f, type: 3}
+  sprite: {fileID: 21300000, guid: 30c6913da1e03764194dd94d2b42d09d, type: 3}
   prefab: {fileID: 0}
   canBeSold: 1
   price: 20

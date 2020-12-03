@@ -15,24 +15,30 @@ MonoBehaviour:
   uuid: 1d124136dbff4d7d8411a6c81418031a
   title: Theta Market
   description: Buy and sell general use goods
-  merchantUI: {fileID: 1776935227048216, guid: 85361cd1001a6944db70c2fc2ebc2f0c, type: 3}
+  merchantUI: {fileID: 1776935227048216, guid: 306f253234f52b14eb2d85a8c2837b51, type: 3}
   warehouse:
     wares:
     - item:
         item: {fileID: 6218342849034894185, guid: 7db43c44761c8486cb3f2e9968376eb5, type: 2}
       limitAmount: 0
       maxAmount: 0
+      ItemSellModifier: 1
+      ItemBuyModifier: 1
     - item:
         item: {fileID: -6732398654033155302, guid: 7db43c44761c8486cb3f2e9968376eb5, type: 2}
       limitAmount: 0
       maxAmount: 0
+      ItemSellModifier: 1
+      ItemBuyModifier: 1
     - item:
         item: {fileID: 7529474881671460774, guid: 7db43c44761c8486cb3f2e9968376eb5, type: 2}
       limitAmount: 0
       maxAmount: 0
+      ItemSellModifier: 1
+      ItemBuyModifier: 1
   purchasePercent:
     optionIndex: 0
-    value: 0.3
+    value: 2
     global:
       allowTypesMask: 4
       name: 
@@ -48,7 +54,7 @@ MonoBehaviour:
       index: 0
   sellPercent:
     optionIndex: 0
-    value: 2
+    value: 1.8
     global:
       allowTypesMask: 4
       name: 
