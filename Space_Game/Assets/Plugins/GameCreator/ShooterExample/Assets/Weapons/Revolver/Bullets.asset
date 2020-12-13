@@ -37,7 +37,7 @@ MonoBehaviour:
       targetObject: {fileID: 0}
       select: 1
       index: 0
-  infiniteAmmo: 0
+  infiniteAmmo: 1
   clipSize: 6
   autoReload: 1
   reloadDuration: 1.5
@@ -57,8 +57,7 @@ MonoBehaviour:
       serializedVersion: 2
       m_Bits: 4294967295
     shooter: {fileID: 0}
-  crosshair: {fileID: 1523696603960604958, guid: bd63c4a2063844f4eb09297294a86877,
-    type: 3}
+  crosshair: {fileID: 1523696603960604958, guid: bd63c4a2063844f4eb09297294a86877, type: 3}
   crosshairFocusTime: 0.25
   projectileVelocity: 10
   chargeType: 1
@@ -110,10 +109,8 @@ MonoBehaviour:
     useShootingTrail: 1
     duration: 0.05
   prefabProjectile: {fileID: 0}
-  prefabImpactEffect: {fileID: 7992671762139973725, guid: fef056483c56b4799964c5429b327668,
-    type: 3}
-  prefabMuzzleFlash: {fileID: 7992671762139973725, guid: ccce7e8e5b1334789accdd47ca894a2d,
-    type: 3}
+  prefabImpactEffect: {fileID: 7992671762139973725, guid: fef056483c56b4799964c5429b327668, type: 3}
+  prefabMuzzleFlash: {fileID: 7992671762139973725, guid: ccce7e8e5b1334789accdd47ca894a2d, type: 3}
   recoil: 0.1
   delay: 0
   minSpread:
@@ -159,9 +156,6 @@ MonoBehaviour:
   maskShoot: {fileID: 31900000, guid: 3acc8bb5601244a6d802d50de1808c76, type: 2}
   animationReload: {fileID: 7400000, guid: f25a8bd047aa74a4abb5e1d8412580c4, type: 2}
   maskReload: {fileID: 31900000, guid: 3acc8bb5601244a6d802d50de1808c76, type: 2}
-  actionsOnStartCharge: {fileID: 986102810687494100, guid: d5ea427bbbb9141f0af271b0accd633c,
-    type: 3}
-  actionsOnEndCharge: {fileID: 3462792355570722156, guid: c9c7b12a8ce774b74a82fa6be7617388,
-    type: 3}
-  actionsOnShoot: {fileID: 6560271264157537990, guid: da333ac71c35a40ecbf744532c6bab52,
-    type: 3}
+  actionsOnStartCharge: {fileID: 986102810687494100, guid: d5ea427bbbb9141f0af271b0accd633c, type: 3}
+  actionsOnEndCharge: {fileID: 3462792355570722156, guid: c9c7b12a8ce774b74a82fa6be7617388, type: 3}
+  actionsOnShoot: {fileID: 6560271264157537990, guid: da333ac71c35a40ecbf744532c6bab52, type: 3}

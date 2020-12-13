@@ -28,8 +28,8 @@ MonoBehaviour:
       type: 2
     - name: patrol
       type: 9
-  position: {x: 199, y: -157}
-  zoom: 1.9487172
+  position: {x: 183, y: -156}
+  zoom: 1
 --- !u!114 &114039777322178950
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -44,11 +44,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
   useConditionsList: 0
-  prefabConditionsList: {fileID: 114767921950010852, guid: e2a4a058dd19b4b25af2d7cb14e312a1,
-    type: 3}
+  prefabConditionsList: {fileID: 114767921950010852, guid: e2a4a058dd19b4b25af2d7cb14e312a1, type: 3}
   useActionsList: 1
-  prefabActionsList: {fileID: 114008682321847658, guid: cc4eec248bfd94b2187a03b324d2fcb8,
-    type: 3}
+  prefabActionsList: {fileID: 114008682321847658, guid: cc4eec248bfd94b2187a03b324d2fcb8, type: 3}
   input: {fileID: 114796875013176436}
   outputs: []
   mode: 0
@@ -187,11 +185,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
   useConditionsList: 1
-  prefabConditionsList: {fileID: 114799382113259478, guid: 4124f86767ad24d989191998e9cd405a,
-    type: 3}
+  prefabConditionsList: {fileID: 114799382113259478, guid: 4124f86767ad24d989191998e9cd405a, type: 3}
   useActionsList: 1
-  prefabActionsList: {fileID: 114545932124109500, guid: d967bb9dcd943479e8a460f3619232d8,
-    type: 3}
+  prefabActionsList: {fileID: 114545932124109500, guid: d967bb9dcd943479e8a460f3619232d8, type: 3}
   input: {fileID: 114672657856702332}
   outputs: []
   mode: 1

@@ -1,0 +1,161 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9bea817408234446891c42a781bec98, type: 3}
+  m_Name: Pistol_ammo
+  m_EditorClassIdentifier: 
+  ammoID: 8623083807554157879e018a1740b60a
+  ammoName:
+    content: Ammo Name
+    postProcess: 0
+    translationID: 0
+  ammoDesc:
+    content: Ammo Description
+    postProcess: 0
+    translationID: 0
+  fireRate:
+    optionIndex: 0
+    value: 2
+    global:
+      allowTypesMask: 4
+      name: 
+    local:
+      allowTypesMask: 4
+      name: 
+      targetType: 2
+      targetObject: {fileID: 0}
+    list:
+      targetType: 3
+      targetObject: {fileID: 0}
+      select: 1
+      index: 0
+  infiniteAmmo: 1
+  clipSize: 10
+  autoReload: 1
+  reloadDuration: 1
+  aimingMode: 1
+  trajectory:
+    material: {fileID: 0}
+    textureMode: 0
+    alignement: 0
+    width: 0.1
+    mode: 1
+    offset: {x: 0, y: 0, z: 1}
+    minVelocity: 10
+    maxVelocity: 20
+    resolution: 0.1
+    maxDistance: 10
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 4294967295
+    shooter: {fileID: 0}
+  crosshair: {fileID: 1523696603960604958, guid: b6f2c8ccdea4348bf8ee334f47a8aae4, type: 3}
+  crosshairFocusTime: 0.25
+  projectileVelocity: 10
+  chargeType: 1
+  minChargeTime: 0.25
+  chargeTime:
+    optionIndex: 0
+    value: 1
+    global:
+      allowTypesMask: 4
+      name: 
+    local:
+      allowTypesMask: 4
+      name: 
+      targetType: 2
+      targetObject: {fileID: 0}
+    list:
+      targetType: 3
+      targetObject: {fileID: 0}
+      select: 1
+      index: 0
+  chargeValue:
+    variableType: 0
+    global:
+      allowTypesMask: 4
+      name: 
+    local:
+      allowTypesMask: 4
+      name: 
+      targetType: 2
+      targetObject: {fileID: 0}
+    list:
+      targetType: 3
+      targetObject: {fileID: 0}
+      select: 1
+      index: 0
+  shootType: 1
+  distance: 50
+  radius: 0.5
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  triggersMask: 1
+  pushForce: 1
+  shootTrail:
+    material: {fileID: 2100000, guid: a4ba6452393c9934fbda3b88896675cc, type: 2}
+    textureMode: 0
+    alignement: 0
+    width: 0.1
+    useShootingTrail: 1
+    duration: 0.1
+  prefabProjectile: {fileID: 0}
+  prefabImpactEffect: {fileID: 7992671762139973725, guid: fef056483c56b4799964c5429b327668, type: 3}
+  prefabMuzzleFlash: {fileID: 7992671762139973725, guid: ccce7e8e5b1334789accdd47ca894a2d, type: 3}
+  recoil: 0.2
+  delay: 0.1
+  minSpread:
+    optionIndex: 0
+    value: 0.01
+    global:
+      allowTypesMask: 4
+      name: 
+    local:
+      allowTypesMask: 4
+      name: 
+      targetType: 2
+      targetObject: {fileID: 0}
+    list:
+      targetType: 3
+      targetObject: {fileID: 0}
+      select: 1
+      index: 0
+  maxSpread:
+    optionIndex: 0
+    value: 0.1
+    global:
+      allowTypesMask: 4
+      name: 
+    local:
+      allowTypesMask: 4
+      name: 
+      targetType: 2
+      targetObject: {fileID: 0}
+    list:
+      targetType: 3
+      targetObject: {fileID: 0}
+      select: 1
+      index: 0
+  prefabAmmo: {fileID: 0}
+  prefabAmmoBone: 18
+  prefabAmmoPosition: {x: 0, y: 0, z: 0}
+  prefabAmmoRotation: {x: 0, y: 0, z: 0}
+  audioShoot: {fileID: 8300000, guid: e6528448cca844ce699ef3181a777ee0, type: 3}
+  audioEmpty: {fileID: 8300000, guid: 5ae2c755abb204d9d8baa7896046e11b, type: 3}
+  audioReload: {fileID: 8300000, guid: c5f612c7dda944fcdb8f13df7e55a86e, type: 3}
+  animationShoot: {fileID: 7400000, guid: 52369466d24e04ff2b1e5af9e28336be, type: 2}
+  maskShoot: {fileID: 31900000, guid: 3acc8bb5601244a6d802d50de1808c76, type: 2}
+  animationReload: {fileID: 7400000, guid: f25a8bd047aa74a4abb5e1d8412580c4, type: 2}
+  maskReload: {fileID: 31900000, guid: 3acc8bb5601244a6d802d50de1808c76, type: 2}
+  actionsOnStartCharge: {fileID: 6791902371227561525, guid: 00711c87190c8424089850b7a822d6f2, type: 3}
+  actionsOnEndCharge: {fileID: 7559036839883083021, guid: c13a6617f49676d459afd8304479ea9c, type: 3}
+  actionsOnShoot: {fileID: 2199650440053028381, guid: cb46fe89097a1c247a4f5145112153d1, type: 3}
